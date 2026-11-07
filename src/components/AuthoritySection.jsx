@@ -44,10 +44,10 @@ export default function AuthoritySection({ onOpenModal }) {
   return (
     <section id="especialista" className="relative pt-20 pb-14 sm:pt-28 sm:pb-20 lg:pt-32 lg:pb-24 overflow-hidden bg-gradient-to-b from-[#000321] via-[#050920] to-[#020314]">
       
-      {/* Real Original Background (/hero-bg.jpeg) + Architectural Grid */}
+      {/* Real Original Background (./hero-bg.jpeg) + Architectural Grid */}
       <div className="absolute inset-0 -z-20">
         <img 
-          src="/hero-bg.jpeg" 
+          src="./hero-bg.jpeg" 
           alt="" 
           className="w-full h-full object-cover opacity-60 scale-105"
         />
@@ -96,7 +96,7 @@ export default function AuthoritySection({ onOpenModal }) {
                 
                 {/* Background Texture Inside Frame */}
                 <img 
-                  src="/hero-bg.jpeg" 
+                  src="./hero-bg.jpeg" 
                   alt="" 
                   className="absolute inset-0 w-full h-full object-cover opacity-55"
                 />
@@ -112,10 +112,10 @@ export default function AuthoritySection({ onOpenModal }) {
                   </span>
                 </div>
 
-                {/* Official Image (/eduardo-lustosa.png) */}
+                {/* Official Image (./eduardo-lustosa.png) */}
                 <div className="relative z-10 py-1 sm:py-2 flex items-center justify-center">
                   <img 
-                    src="/eduardo-lustosa.png" 
+                    src="./eduardo-lustosa.png" 
                     alt="Eduardo Lustosa - Proprietário de 3 Academias" 
                     className="w-full max-w-[290px] sm:max-w-[360px] h-auto object-contain drop-shadow-[0_20px_40px_rgba(0,0,0,0.9)] transition-transform duration-500"
                   />
